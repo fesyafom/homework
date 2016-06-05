@@ -21,38 +21,28 @@ h3     {font-size: 16pt;
 a 	{font-size: 16pt;
 	text-decoration: none;
 	color: #848484;
-	cursor: inherit ;
 	}
 .wrapper {
-	width: 1596px;
 	margin: 0 auto;
 }
 .header {
     height: 612px;
     background: url(../img/bgheader.jpg) no-repeat top center;
     background-size: cover;
-	margin: 0 auto;
 }
-.header h1 {
-    color: #ffffff ;
-    width: 450px;
-    margin-left: 323px ;
-	margin-top: 32px;
-}
-.logo{
-    height: 83px;
-	width: 183px;
-	margin-left: 323px;
+.logo {
+    height: 290px;
+	width: 400px;
+	margin-left: 150px;
 	padding-top: 175px;
 }
-.logo a:hover {
-	cursor: url(../img/cursor.png), pointer ;
+.logo h1 {
+    color: #ffffff ;
+    margin: 32px 0;
 }
+
 .osicon{
     height: 68px;
-	width: 204px;
-	margin-left: 323px;
-	margin-top: 17px;
 }
 .osicon ul li{
     height: 30px;
@@ -64,18 +54,16 @@ a 	{font-size: 16pt;
     margin-right: 15px;
 	margin-top: 15px;
 	list-style-type: none;
+	opacity: 0.5;
 }
 .osicon ul li:hover {
-    cursor: url(../img/cursor.png), pointer ;
+    cursor: pointer ;
     background: #2ecc71;
+	opacity: 1;
 }
 .advantages {
     height: 332px;
 	clear: left;
-	margin: 0 auto;
-}
-.advantages ul {
-	width: 1240px;
 	margin: 0 auto;
 }
 .advantages ul li {
@@ -88,11 +76,22 @@ a 	{font-size: 16pt;
 .advantages ul li h2, p{
 	margin-top: 28px;
 }
+.advantagesico{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+	padding: 20px;
+    background: #2ecc71;
+    float: left;
+	list-style-type: none;
+	margin-left: 115px;
+	margin-bottom: 30px;
+}
+
 .subscription {
 	height: 423px;
 	clear: left;
 	background: #e3e3e3;
-	margin: 0 auto;
 }
 .block {
 	width: 1240px;
@@ -129,12 +128,15 @@ a 	{font-size: 16pt;
     color: white;
     }	
 .button:hover {
-	cursor: url(../img/cursor.png), pointer ;
+	cursor: pointer ;
 }
 .video {
 	float: left;
 	width: 500px;
 	margin: 57px 40px;
+}
+.video iframe {
+	border-radius: 10px;
 }
 .getintouch {
 	height: 465px;
@@ -166,7 +168,7 @@ a 	{font-size: 16pt;
 	list-style-type: none;
 }
 .socialicons ul li:hover {
-	cursor: url(../img/cursor.png), pointer ;
+	cursor: pointer ;
     background: #2ecc71;
 }
 .photos {
@@ -180,9 +182,25 @@ a 	{font-size: 16pt;
 	margin: 30px 2px;
 	list-style-type: none;
 }
+.photos li:first-child {
+	background: linear-gradient(270deg, rgba(0,0,0,1),rgba(0,0,0,1),rgba(255,255,255,1), rgba(255,255,255,1));	
+}
+.photos li:first-child img {
+	opacity: 0.5;
+}
+.photos li:last-child {
+	background: linear-gradient(90deg, rgba(0,0,0,1),rgba(0,0,0,1),rgba(255,255,255,1), rgba(255,255,255,1));
+}
+.photos li:last-child img{
+	opacity: 0.5;
+}
+.photos li img:hover {
+	opacity: 0.5;
+}
 .photos li:hover {
-	cursor: url(../img/cursor.png), pointer ;
-    background: #2ecc71;
+	cursor: pointer ;
+    background-color: #00FF00;
+	background: linear-gradient(0deg, #00FF00, #00FF00);		
 }
 .footer {
 	height: 126px;
@@ -190,14 +208,15 @@ a 	{font-size: 16pt;
 	background: #e3e3e3;
 }
 .footer ul {
-	padding-left: 480px;
 	padding-top: 58px;
+	width: 650px;
+	margin: 0 auto;
 }
 .footer ul li {
 	float: left;
 	list-style-type: none;
-	margin-right: 30px;
+	margin: 0 15px;
 }
 .footer ul li:hover {
-	cursor: url(../img/cursor.png), pointer ;
+	cursor: pointer ;
 }
